@@ -1,0 +1,48 @@
+body .warning {
+    background: url(image.png);
+    height: 403px;
+    width: 1219px;
+    left: -1px;
+    top: 84px;
+    border-radius: 0px;
+}
+
+.header {
+    height: 84px;
+    background-color: green;
+}
+
+.class {
+    background-image: url('./image.png');
+    height: 250px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: var(--space-xl);
+}
+
+
+.warning img {
+    width: 100%;
+}
+
+.about {
+    background-color: #EEEEEE;
+}
+
+.about__wrapper {
+    margin: 0 auto;
+    padding: var(--space-xl);
+    max-width: 1110px;
+}
+
+.about__heading {
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--main-color);
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: var(--space-xxs);
+}
